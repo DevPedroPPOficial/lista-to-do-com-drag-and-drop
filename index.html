@@ -4,17 +4,16 @@
 <head>
 	<title>Drag n Drop ToDo List</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="script.js" defer></script>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta charset="UTF-8" />
+	<script type="module" src="script.js"></script>
 </head>
 
 <body>
 	<div class="container">
 		<h1>Lista TO-DO</h1>
-		<button onclick="addItem()">Adicionar</button>
+		<button id="add-btn">Adicionar</button>
 		<div class="list--container">
-			<ul id="lista">
-			</ul>
+			<ul id="lista"></ul>
 		</div>
 	</div>
 </body>
